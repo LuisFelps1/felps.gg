@@ -1,11 +1,11 @@
-/* Reset de estilos e configuração geral */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos base */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -42,7 +42,7 @@ nav ul li a {
     padding: 20px 0;
 }
 
-/* Sobre a Loja */
+
 .about {
     display: flex;
     flex-direction: column;
@@ -51,13 +51,13 @@ nav ul li a {
 }
 
 .about img {
-    max-width: 100%; /* Ajuste para ocupar a largura máxima do container pai */
-    height: auto; /* Manter proporções */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .about-text {
-    max-width: 100%; /* Ajuste para ocupar a largura máxima do container pai */
-    margin-top: 20px; /* Espaçamento superior */
+    max-width: 100%; 
+    margin-top: 20px; 
 }
 
 .about-text h2 {
@@ -65,7 +65,7 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
-/* Produtos */
+
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -73,17 +73,17 @@ nav ul li a {
 }
 
 .product {
-    width: calc(25% - 15px); /* Para quatro colunas em Desktop */
+    width: calc(25% - 15px); 
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     text-align: center;
-    box-sizing: border-box; /* Garante que padding e border sejam considerados no cálculo de largura */
+    box-sizing: border-box; 
 }
 
 .product img {
-    max-width: 100%; /* Ajuste para ocupar a largura máxima do container pai */
-    height: auto; /* Manter proporções */
+    max-width: 100%;
+    height: auto; 
 }
 
 .product h3 {
@@ -109,16 +109,16 @@ nav ul li a {
     background-color: #0056b3;
 }
 
-/* Media Queries para ajustes em dispositivos específicos */
+
 @media (max-width: 1023px) {
     .product {
-        width: calc(50% - 15px); /* Para duas colunas em Tablet */
+        width: calc(50% - 15px);
     }
 }
 
 @media (max-width: 640px) {
     .product {
-        width: 100%; /* Produto ocupa toda a largura em Mobile */
-        margin-bottom: 10px; /* Menos margem inferior */
+        width: 100%;
+        margin-bottom: 10px; 
     }
 }
